@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Sharing Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Sharing Calculator</h1>
+
+        <div class="input-section">
+            <label for="numOfTextboxes">Number of Users:</label>
+            <input type="number" id="numOfTextboxes" min="1" max="10" value="1">
+            <button onclick="generateTextboxes()">Generate</button>
+            <button onclick="resetForm()">Reset</button>
+        </div>
+
+        <table id="userTable" class="user-table">
+            <thead>
+                <tr>
+                    <th>User Name</th>
+                    <th>Expense</th>
+                    <th>Actions</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+
+        <button onclick="calculate()" class="calculate-button">Calculate</button>
+
+        <div id="result" class="result-section"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

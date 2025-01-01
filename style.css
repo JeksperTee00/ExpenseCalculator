@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fb;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-section input[type="number"] {
+    width: 80px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.input-section button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-section button:hover {
+    background-color: #0056b3;
+}
+
+/* User Table */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th, .user-table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.user-table th {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.user-table td button {
+    padding: 6px 12px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.user-table td button:hover {
+    background-color: #218838;
+}
+
+/* Calculate Button */
+.calculate-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FF5733;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculate-button:hover {
+    background-color: #c44129;
+}
+
+/* Result Section */
+.result-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #faf3dc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #444;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+/* Overall table layout */
+table {
+    width: 100%;
+    table-layout: fixed; /* Ensures table columns have consistent widths */
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Table Cells */
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    min-width: 80px; /* Ensures button size doesn't change */
+    text-align: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Fix expense input visibility and consistency */
+input[type="number"] {
+    width: 100px; /* Ensure input field is always the same width */
+}
+
+input[type="text"] {
+    width: 120px; /* Fixed width for name input */
+}
